@@ -12,7 +12,7 @@ mizzao:bootstrap-3
 iron:router
 sacha:spin
 percolate:velocityjs
-ian:accounts-ui-bootstrap-3
 accounts-password
 coffeescript
+accounts-base
 

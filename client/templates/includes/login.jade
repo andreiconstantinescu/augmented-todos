@@ -1,0 +1,17 @@
+template(name='login')
+  .login-card
+    .alert.alert-danger.hidden#incorrect-login(role='alert')
+      span Incorrent 
+        strong  email 
+        |  or 
+        strong  password
+        |  ! Try again!
+    form(action='action', role='form')
+      .form-group
+        label Email address
+        input.form-control#login-email(type='email', placeholder='Enter your email.')
+      .form-group
+        label Password
+        input.form-control#login-password(type='password', placeholder='Enter your password.')
+      .form-group
+        button.btn.btn-default#login-button(type='submit') Sign In
